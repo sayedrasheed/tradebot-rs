@@ -1,0 +1,20 @@
+[package]
+name = "common"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tradebot-protos = { git = "https://github.com/sayedrasheed/tradebot-protos-rs.git" }
+zenoh-node = { git = "https://github.com/sayedrasheed/zenoh-node-rs.git" }
+yaml-rust = "0.4.5"
+serde = { version = "1.0.123", features = ["derive"] }
+serde_json = { version = "1.0.62" }
+serde_yaml = { version = "0.9.14" }
+snafu = "0.7.0"
+prost = "0.12.3"
+rand = "0.8.5"
+tracing = "0.1.40"
+tracing-subscriber = "0.3.18"
+

@@ -1,0 +1,13 @@
+service-config-path: config/service/service.yml
+topics:
+    chart: chart
+    candle_update: candle_update
+    algo_chart: algo_chart
+    point: point
+    order: order
+    advice: advice
+    order_list: order_list
+    position_stats: position_stats
+
+app-ip: 224.0.0.224
+

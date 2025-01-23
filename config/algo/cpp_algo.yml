@@ -1,0 +1,7 @@
+---
+rsi-period: 12
+rsi-buy-threshold: 20.0
+rsi-sell-threshold: 75.0
+candle-periods:
+  - 60
+  - 300

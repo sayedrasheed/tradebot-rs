@@ -1,0 +1,3 @@
+[submodule "algo-service/src/py_algo/py-algo-example"]
+	path = algo-service/src/py_algo/py-algo-example
+	url = https://github.com/sayedrasheed/py-algo-example

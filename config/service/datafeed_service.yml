@@ -1,0 +1,13 @@
+#zenoh-config: config/localhost_zenoh.json5
+service-config-path: config/service/service.yml
+datafeed-ip: 224.0.0.224
+topics:
+    tick: tick
+    candle: candle
+    historical_data: historical_data
+    datafeed_complete: datafeed_complete
+datafeeds:
+    - provider: Parquet
+      config: config/datafeed/parquet.yml
+    - provider: S3
+      config: config/datafeed/s3.yml

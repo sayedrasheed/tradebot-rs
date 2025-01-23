@@ -1,0 +1,19 @@
+---
+service-config-path: config/service/service.yml
+
+batch-id: MyBatch
+stratigies:
+  - algo-id: CppAlgo
+    broker-id: PaperTrader
+    df-type: Futures
+    exe-mode: Resim
+    start-date: 20240131
+    #end-date: 20240701
+    datafeeds:
+      - symbol: NQ
+        datafeed-provider: Parquet
+        enable-ticks: true
+        candle-streams:
+          - period-s: 60
+            historical-config:
+              num-days: 1

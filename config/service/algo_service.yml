@@ -1,0 +1,37 @@
+service-config-path: config/service/service.yml
+notify-service-list:
+    - pnl-service
+    - order-service
+topics:
+    algo_complete: algo_complete
+    advice: advice
+    order_filled: order_filled
+    position_stats: position_stats
+    realized: realized
+algo-ip: 224.0.0.224
+algos:
+    - algo-id: RustAlgo
+      topics:
+          - topic: line
+            mtype: Line
+          - topic: point
+            mtype: Point
+      config: config/algo/rust_algo.yml
+    - algo-id: CppAlgo
+      topics:
+          - topic: line
+            mtype: Line
+          - topic: point
+            mtype: Point
+          - topic: rectangle
+            mtype: Rectangle
+      config: config/algo/cpp_algo.yml
+    - algo-id: PyAlgo
+      topics:
+          - topic: line
+            mtype: Line
+          - topic: point
+            mtype: Point
+          - topic: rectangle
+            mtype: Rectangle
+      config: config/algo/py_algo.yml

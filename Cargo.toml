@@ -1,0 +1,13 @@
+[workspace]
+resolver = "2"
+members = [
+    "main",
+    "common",
+    "datafeed-service",
+    "broker-service",
+    "algo-service",
+    "logger-service",
+    "order-service", 
+    "pnl-service",
+    "app-service",
+]

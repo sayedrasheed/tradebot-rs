@@ -1,0 +1,21 @@
+service-config-path: config/service/service.yml
+notify-service-list:
+    - pnl-service
+    - order-service
+topics:
+    algo_complete: algo_complete
+    advice: advice
+    order_filled: order_filled
+    position_stats: position_stats
+    realized: realized
+pnl-ip: 224.0.0.224
+futures-config:
+    NQ:
+        tick-size: 0.25
+        tick-value: 5.0
+    NQZ4:
+        tick-size: 0.25
+        tick-value: 5.0
+    ES:
+        tick-size: 0.25
+        tick-value: 3.125

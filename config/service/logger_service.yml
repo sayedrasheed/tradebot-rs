@@ -1,0 +1,10 @@
+service-config-path: config/service/service.yml
+logging-output-path: output
+topics:
+    chart: chart
+    algo_chart: algo_chart
+    order_list: order_list
+    position_stats: position_stats
+    total_pnl: total_pnl
+
+logger-ip: 224.0.0.224

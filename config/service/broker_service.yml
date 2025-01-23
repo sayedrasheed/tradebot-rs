@@ -1,0 +1,8 @@
+service-config-path: config/service/service.yml
+topics:
+    order_filled: order_filled
+    order: order
+broker-ip: 224.0.0.224
+broker:
+    - broker-id: PaperTrader
+      config: config/broker/paper_trader.yml

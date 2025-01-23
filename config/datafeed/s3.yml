@@ -1,0 +1,7 @@
+---
+bucket-name: amzn-s3-tradebot-sayedrasheed-bucket
+region: us-east-2
+# use when credentials arent set from environment
+#credentials:
+#  access-key-id: access-key
+#  secret-access-key: secret-key

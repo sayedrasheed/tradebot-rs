@@ -1,0 +1,5 @@
+---
+py-algo-interface-path: algo-service/src/py_algo/algo_interface.py
+ema-slow-period: 12
+ema-fast-period: 25
+candle-period-s: 60

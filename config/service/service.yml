@@ -1,0 +1,23 @@
+---
+#zenoh-config-path: "path"
+ip: 224.0.0.224
+port: 7441
+topics:
+    join_datafeed: join_datafeed
+    join_algofeed: join_algofeed
+    start_datafeed: start_datafeed
+    start_algo: start_algo
+    start_broker: start_broker
+    abort_algo_subscriber: abort_algo_subscriber
+    join_brokerfeed: join_brokerfeed
+    join_algofeed_success: join_algofeed_success
+    join_datafeed_success: join_datafeed_success
+    strategies_request: strategies_request
+    strategies_response: strategies_response
+    log_request: log_request
+    read_from_dir_request: read_from_dir_request
+    read_from_dir_response: read_from_dir_response
+    join_overall_pnlfeed: join_overall_pnlfeed
+    service_available_request: service_available_request
+    service_available_response: service_available_response
+    join_strategy_pnlfeed: join_strategy_pnlfeed

@@ -1,0 +1,4 @@
+service-config-path: config/service/service.yml
+topics:
+  order: order
+  order_filled: order_filled
