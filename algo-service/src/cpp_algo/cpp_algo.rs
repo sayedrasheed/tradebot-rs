@@ -321,7 +321,7 @@ impl Subscribe<HistoricalData> for CppAlgo {
             period_s: msg.period_s,
             pane_idx: 1,
             points,
-            color: None,
+            color: Some(String::from("#a83291")),
         };
 
         if let Some(publisher) = &self.line_publisher {
