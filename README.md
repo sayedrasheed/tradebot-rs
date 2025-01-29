@@ -8,6 +8,8 @@ Simple examples of Rust, C++, and Python trading strategies integrated into Trad
 2. [C++](https://github.com/sayedrasheed/cpp-algo-example)
 3. [Python](https://github.com/sayedrasheed/py-algo-example)
 
+TradeBot is controlled by a React-based Tauri application that can be found [here](https://github.com/sayedrasheed/tradebot-app):
+
 # Demo
 ## Run resimulation using historical data
 [YouTube](https://www.youtube.com/shorts/CoOf7fnGejE)
