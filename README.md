@@ -1,5 +1,5 @@
 # TradeBot
-TradeBot is a distributed, service-oriented automated trading application built in Rust. It enables the automation of trading strategies using both real-time and historical market data. For real-time data, TradeBot integrates with NinjaTrader to receive market updates and execute orders. Historical data can be sourced from local files or AWS S3, stored in Parquet format.
+TradeBot is a distributed, service-oriented automated trading application built in Rust. It enables the automation of trading strategies using both real-time and historical market data. For real-time data, TradeBot currently integrates with NinjaTrader to receive market updates and execute orders, with integration for Interactive Brokers currently in progress. For backtesting, historical data can be sourced from local files or AWS S3, stored in Parquet format.
 
 The platform supports backtesting strategies with historical data and seamlessly integrates Rust, C++ and Python trading strategies through a predefined interface that all algorithms follow. Additionally, TradeBot generates detailed profit and loss reports to assess strategy performance and logs all active strategies in binary format for future analysis.
 
