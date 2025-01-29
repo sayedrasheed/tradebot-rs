@@ -3,6 +3,8 @@ TradeBot is a distributed, service-oriented automated trading application built 
 
 The platform supports backtesting strategies with historical data and seamlessly integrates Rust, C++ and Python trading strategies through a predefined interface that all algorithms follow. Additionally, TradeBot generates detailed profit and loss reports to assess strategy performance and logs all active strategies in binary format for future analysis.
 
+Communication between services is handled via the Zenoh protocol using the Zenoh Rust API. All messages are serialized and deserialized using Protobuf, leveraging the Prost library.
+
 Simple examples of Rust, C++, and Python trading strategies integrated into TradeBot can be found here:
 1. [Rust](https://github.com/sayedrasheed/tradebot-rs/tree/master/algo-service/src/rust_algo)
 2. [C++](https://github.com/sayedrasheed/cpp-algo-example)
